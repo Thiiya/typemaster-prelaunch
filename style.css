@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+s
+ * {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+}  
+
+  body{
+  
+    background-color: #F5EFFF;
+    color: black;
+    width: 60vw;
+    height: 100vh;
+    /* border: 2px solid red;  */
+    padding: 20px;
+    margin: 10px auto;
+    position: relative;
+    
+  }
+
+ 
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  } 
+
+  .tm {
+    width: 40px;
+    height: 40px;
+    background-color: #FF5400;
+    font-weight: 700;
+    color: snow;
+    padding-left: 2px;
+  }
+
+  .pre {
+    width: 150px;
+    height: 40px;
+    background-color: #d2d6d0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2a394b;
+    font-family: "Chakra Petch";
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-left: 200px;
+  }
+
+  .second {
+    display: flex;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .headingone {
+    margin-top: 50px;
+    margin-right: 200px;
+   
+  }
+
+  h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    color: #2a394b;
+  }
+
+  .headingone p {
+    color: #94968e;
+  }
+
+  .order {
+    display: flex;
+    align-items: center;
+  }
+
+  button {
+    background-color: #FF5400;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: snow;
+  }
+
+  .release {
+    padding-left: 25px;
+    color: rgba(117, 117, 117, 0.931);
+  }
+  
+
+.imageone {
+  
+  border-radius: 5px;
+  width: 25vw;
+  height: 300px;
+  margin-top: 10px;
+  background-image: url(images/type.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -30px;
+}
+
+.color {
+  width: 150px;
+  height: 170px;
+  border-radius: 5px;
+  background-color: gainsboro;
+  position: absolute;
+  top: 120px;
+  left: 950px;
+  overflow: hidden;
+}
+
+
+.three {
+  display: flex;
+  position: relative;
+  margin-top: 100px;
+}
+
+.gray {
+  width: 150px;
+  height: 170px;
+  border-radius: 5px;
+  background-color: gainsboro;
+  position: absolute;
+  top: 110px;
+  right:940px;
+  overflow: hidden;
+  
+}
+
+.orange {
+  width: 150px;
+  height: 280px;
+  background-image: url(images/phone.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ff5500b3;
+  border-radius: 5px;
+}
+
+.range {
+  width: 150px;
+  height: 280px;
+  background-color:#FF5400;
+  opacity: 0.85;
+  border-radius: 5px;
+}
+
+
+.transparent {
+  width: 700px;
+  height: 280px;
+  background-image: url(images/glass-and-keyboard.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.mechanical {
+  width: 500px;
+  margin-left: 20px;
+}
+
+.mechanical h2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.mechanical p{
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+  color: #94968e;
+}
+
+
+.four {
+  margin-top: 100px;
+  display: flex;
+  width: 80vw;
+}
+
+.icons {
+  margin-inline: 25px;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.desktop {
+  width: 50px;
+  height: 50px;
+  background-color: #FF5400;
+  color: snow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+.bx {
+  font-size: 30px;
+}
+
+h3{
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.desk {
+  color: #94968e;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color:  #94968e;
+}
+
+span {
+  font-weight: 600;
+  
+}
